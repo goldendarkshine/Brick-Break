@@ -19,7 +19,7 @@ def draw():
     
 def paddle():
     global ellipse_x, speedX, ellipse_y, speedY
-    rect(mouseX,970,60,12)
+    rect(mouseX,900,60,12)
     if ellipse_x >= mouseX - 100 and ellipse_x <= mouseX + 100 and ellipse_y == 970:    
      speedY = -speedY
     if ellipse_x >= mouseX - 150 and ellipse_x <= mouseX + 150 and ellipse_y == 900:
